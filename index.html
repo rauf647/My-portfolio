@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio website of Abdul Rauf Raza, a Full Stack Developer specializing in modern web technologies, responsive design, and clean code.">
+    <meta name="keywords" content="portfolio, full stack developer, web developer, HTML, CSS, JavaScript, Node.js, React">
+    <meta name="author" content="Abdul Rauf Raza">
+    <title>Abdul Rauf Raza | Full Stack Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- ==================== HEADER / NAVBAR ==================== -->
+    <header class="header" id="header">
+        <div class="container nav-container">
+            <a href="#home" class="logo" aria-label="Go to homepage">
+                <span class="logo-bracket">&lt;</span>
+                <span class="logo-text">Rauf</span>
+                <span class="logo-bracket">/&gt;</span>
+            </a>
+
+            <nav class="navbar" id="navbar" aria-label="Main navigation">
+                <ul class="nav-list" id="nav-list">
+                    <li><a href="#home" class="nav-link active" aria-label="Home section">Home</a></li>
+                    <li><a href="#about" class="nav-link" aria-label="About section">About</a></li>
+                    <li><a href="#skills" class="nav-link" aria-label="Skills section">Skills</a></li>
+                    <li><a href="#projects" class="nav-link" aria-label="Projects section">Projects</a></li>
+                    <li><a href="#experience" class="nav-link" aria-label="Experience section">Experience</a></li>
+                    <li><a href="#education" class="nav-link" aria-label="Education section">Education</a></li>
+                    <li><a href="#contact" class="nav-link" aria-label="Contact section">Contact</a></li>
+                </ul>
+            </nav>
+
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- ==================== HERO SECTION ==================== -->
+        <section class="hero" id="home">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <p class="hero-greeting">Hello, I'm</p>
+                    <h1 class="hero-name">Abdul Rauf Raza</h1>
+                    <h2 class="hero-title">Full Stack Developer</h2>
+                    <p class="hero-description">
+                        I build modern, responsive, and user-friendly web applications.
+                        Passionate about clean code, intuitive design, and solving real-world problems
+                        through technology.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary" aria-label="View my projects">
+                            <i class="fas fa-briefcase"></i> View My Work
+                        </a>
+                        <a href="#contact" class="btn btn-secondary" aria-label="Contact me">
+                            <i class="fas fa-envelope"></i> Contact Me
+                        </a>
+                    </div>
+                    <div class="hero-socials">
+                        <a href="https://github.com/rauf647" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/abdul-rauf-raza-5900b8357" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" aria-label="Twitter Profile">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="mailto:iabd360malik@gmail.com" aria-label="Send Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-wrapper">
+                        <img src="assets/pic.jpeg" alt="Professional headshot of Abdul Rauf Raza, Full Stack Developer" class="profile-img">
+                        <div class="image-decoration"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <a href="#about" aria-label="Scroll down to About section">
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- ==================== ABOUT SECTION ==================== -->
+        <section class="about section" id="about">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-subtitle">Get To Know</p>
+                    <h2 class="section-title">About Me</h2>
+                </div>
+                <div class="about-container">
+                    <div class="about-image">
+                        <img src="assets/pic.jpeg" alt="About Abdul Rauf Raza - Full Stack Developer" class="about-img">
+                    </div>
+                    <div class="about-content">
+                        <p class="about-text">
+                            I am a passionate Full Stack Developer with a strong foundation in modern web technologies.
+                            I enjoy turning complex problems into simple, beautiful, and intuitive solutions.
+                            My journey in web development started with curiosity about how websites work,
+                            and it has evolved into a professional pursuit.
+                        </p>
+                        <p class="about-text">
+                            I specialize in building responsive web applications using HTML5, CSS3, JavaScript,
+                            and modern frameworks. I am constantly learning new technologies and best practices
+                            to stay current in this ever-evolving field.
+                        </p>
+                        <div class="about-stats">
+                            <div class="stat-card">
+                                <span class="stat-number">10+</span>
+                                <span class="stat-label">Projects Completed</span>
+                            </div>
+                            <div class="stat-card">
+                                <span class="stat-number">15+</span>
+                                <span class="stat-label">Technologies</span>
+                            </div>
+                            <div class="stat-card">
+                                <span class="stat-number">1+</span>
+                                <span class="stat-label">Years Experience</span>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-primary" aria-label="Download my CV">
+                            <i class="fas fa-download"></i> Download CV
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== SKILLS SECTION ==================== -->
+        <section class="skills section" id="skills">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-subtitle">My Expertise</p>
+                    <h2 class="section-title">Technical Skills</h2>
+                </div>
+                <div class="skills-container">
+                    <!-- Frontend Skills -->
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <i class="fas fa-laptop-code"></i>
+                            <h3>Frontend Development</h3>
+                        </div>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">HTML5</span>
+                                    <span class="skill-percent">95%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="95"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">CSS3</span>
+                                    <span class="skill-percent">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="90"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">JavaScript</span>
+                                    <span class="skill-percent">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="85"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Responsive Design</span>
+                                    <span class="skill-percent">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="90"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">React</span>
+                                    <span class="skill-percent">75%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="75"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Backend Skills -->
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <i class="fas fa-server"></i>
+                            <h3>Backend Development</h3>
+                        </div>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Node.js</span>
+                                    <span class="skill-percent">80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="80"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Express.js</span>
+                                    <span class="skill-percent">78%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="78"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">REST APIs</span>
+                                    <span class="skill-percent">82%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="82"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Database Skills -->
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <i class="fas fa-database"></i>
+                            <h3>Database</h3>
+                        </div>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">MySQL</span>
+                                    <span class="skill-percent">80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="80"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tools Skills -->
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <i class="fas fa-tools"></i>
+                            <h3>Tools & Technologies</h3>
+                        </div>
+                        <div class="skills-grid tools-grid">
+                            <div class="tool-item">
+                                <i class="fab fa-git-alt"></i>
+                                <span>Git</span>
+                            </div>
+                            <div class="tool-item">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub</span>
+                            </div>
+                            <div class="tool-item">
+                                <i class="fas fa-code"></i>
+                                <span>VS Code</span>
+                            </div>
+                            <div class="tool-item">
+                                <i class="fab fa-npm"></i>
+                                <span>npm</span>
+                            </div>
+                            <div class="tool-item">
+                                <i class="fas fa-terminal"></i>
+                                <span>Terminal</span>
+                            </div>
+                            <div class="tool-item">
+                                <i class="fab fa-figma"></i>
+                                <span>Figma</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== PROJECTS SECTION ==================== -->
+        <section class="projects section" id="projects">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-subtitle">What I've Built</p>
+                    <h2 class="section-title">Featured Projects</h2>
+                </div>
+                <div class="projects-container">
+                    <!-- Project 1 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="assets/project1.svg" alt="Responsive Portfolio Website - A modern developer portfolio" loading="lazy">
+                            <div class="project-overlay">
+                                <a href="#" class="overlay-link" aria-label="View Live Demo of Portfolio Website">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="overlay-link" aria-label="View GitHub Repository of Portfolio Website">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Responsive Portfolio Website</h3>
+                            <p class="project-description">
+                                A modern, fully responsive portfolio website built with semantic HTML5,
+                                CSS3 Flexbox/Grid, and vanilla JavaScript. Features smooth animations,
+                                mobile navigation, and contact form validation.
+                            </p>
+                            <div class="project-tech">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                                <span>Responsive Design</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-small btn-primary" aria-label="Live Demo of Portfolio Website">
+                                    <i class="fas fa-external-link-alt"></i> Live Demo
+                                </a>
+                                <a href="#" class="btn btn-small btn-secondary" aria-label="GitHub Repository of Portfolio Website">
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="assets/project2.svg" alt="Restaurant Order Management System" loading="lazy">
+                            <div class="project-overlay">
+                                <a href="#" class="overlay-link" aria-label="View Live Demo of Restaurant System">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="overlay-link" aria-label="View GitHub Repository of Restaurant System">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Restaurant Order Management System</h3>
+                            <p class="project-description">
+                                A comprehensive web application for managing restaurant orders, menu items,
+                                and customer data. Features real-time order tracking, admin dashboard,
+                                and responsive interface for both desktop and mobile use.
+                            </p>
+                            <div class="project-tech">
+                                <span>Node.js</span>
+                                <span>Express.js</span>
+                                <span>MySQL</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-small btn-primary" aria-label="Live Demo of Restaurant System">
+                                    <i class="fas fa-external-link-alt"></i> Live Demo
+                                </a>
+                                <a href="#" class="btn btn-small btn-secondary" aria-label="GitHub Repository of Restaurant System">
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="assets/project3.svg" alt="Sales Data Excel-to-Web Application" loading="lazy">
+                            <div class="project-overlay">
+                                <a href="#" class="overlay-link" aria-label="View Live Demo of Sales Data App">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="overlay-link" aria-label="View GitHub Repository of Sales Data App">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Sales Data Excel-to-Web Application</h3>
+                            <p class="project-description">
+                                A data visualization web app that converts Excel sales data into interactive
+                                charts and dashboards. Users can upload CSV/Excel files and view analytics
+                                with filtering, sorting, and export capabilities.
+                            </p>
+                            <div class="project-tech">
+                                <span>JavaScript</span>
+                                <span>Chart.js</span>
+                                <span>Node.js</span>
+                                <span>CSV Parser</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-small btn-primary" aria-label="Live Demo of Sales Data App">
+                                    <i class="fas fa-external-link-alt"></i> Live Demo
+                                </a>
+                                <a href="#" class="btn btn-small btn-secondary" aria-label="GitHub Repository of Sales Data App">
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 4 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="assets/project2.svg" alt="Job Application Tracker" loading="lazy">
+                            <div class="project-overlay">
+                                <a href="#" class="overlay-link" aria-label="View Live Demo of Job Tracker">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="overlay-link" aria-label="View GitHub Repository of Job Tracker">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Job Application Tracker</h3>
+                            <p class="project-description">
+                                A full-stack web application to track job applications, interviews,
+                                and follow-ups. Features status tracking, deadline reminders,
+                                notes for each application, and analytics on application progress.
+                            </p>
+                            <div class="project-tech">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>Express.js</span>
+                                <span>MySQL</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-small btn-primary" aria-label="Live Demo of Job Tracker">
+                                    <i class="fas fa-external-link-alt"></i> Live Demo
+                                </a>
+                                <a href="#" class="btn btn-small btn-secondary" aria-label="GitHub Repository of Job Tracker">
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== EXPERIENCE SECTION ==================== -->
+        <section class="experience section" id="experience">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-subtitle">My Journey</p>
+                    <h2 class="section-title">Experience</h2>
+                </div>
+                <div class="experience-container">
+                    <div class="experience-card">
+                        <div class="experience-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="experience-content">
+                            <span class="experience-date">2026 - Present</span>
+                            <h3 class="experience-role">Software Development Intern</h3>
+                            <h4 class="experience-company">SSGC / Internship</h4>
+                            <p class="experience-description">
+                                Working on web development tasks, responsive interfaces, JavaScript applications
+                                and practical software development projects. Collaborating with senior developers
+                                to build and maintain web applications, implementing new features, and debugging
+                                existing codebases.
+                            </p>
+                            <div class="experience-tags">
+                                <span>Web Development</span>
+                                <span>JavaScript</span>
+                                <span>Responsive Design</span>
+                                <span>Team Collaboration</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== EDUCATION SECTION ==================== -->
+        <section class="education section" id="education">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-subtitle">Academic Background</p>
+                    <h2 class="section-title">Education</h2>
+                </div>
+                <div class="education-container">
+                    <div class="education-card">
+                        <div class="education-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="education-content">
+                            <span class="education-date">2023 - 2027</span>
+                            <h3 class="education-degree">Bachelor of Information Technology (BS-IT)</h3>
+                            <h4 class="education-institution">Sir Syed University of Engineering and Technology, Karachi</h4>
+                            <p class="education-description">
+                                Relevant coursework includes Data Structures, Algorithms, Web Development,
+                                Database Management, Software Engineering, and Computer Networks.
+                            </p>
+                            <div class="education-tags">
+                                <span>Computer Science</span>
+                                <span>Web Technologies</span>
+                                <span>Software Engineering</span>
+                                <span>Database Systems</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== CONTACT SECTION ==================== -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-subtitle">Get In Touch</p>
+                    <h2 class="section-title">Contact Me</h2>
+                </div>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <a href="mailto:iabd360malik@gmail.com">iabd360malik@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Phone</h4>
+                                <a href="tel:03073003369">03073003369</a>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Location</h4>
+                                <p>Karachi, Pakistan</p>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fab fa-linkedin-in"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>LinkedIn</h4>
+                                <a href="https://www.linkedin.com/in/abdul-rauf-raza-5900b8357" target="_blank" rel="noopener noreferrer">linkedin.com/in/abdul-rauf-raza</a>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>GitHub</h4>
+                                <a href="https://github.com/rauf647" target="_blank" rel="noopener noreferrer">github.com/rauf647</a>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form" id="contact-form" novalidate>
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your full name" required aria-required="true">
+                            <span class="error-message" id="name-error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email address" required aria-required="true">
+                            <span class="error-message" id="email-error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="Enter subject" required aria-required="true">
+                            <span class="error-message" id="subject-error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Enter your message" required aria-required="true"></textarea>
+                            <span class="error-message" id="message-error"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-submit">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                        <div class="form-status" id="form-status"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#home" class="footer-logo">
+                        <span class="logo-bracket">&lt;</span>
+                        <span class="logo-text">Rauf</span>
+                        <span class="logo-bracket">/&gt;</span>
+                    </a>
+                    <p class="footer-description">
+                        Full Stack Developer passionate about building modern web applications
+                        with clean code and intuitive user experiences.
+                    </p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Connect With Me</h4>
+                    <div class="social-links">
+                        <a href="https://github.com/rauf647" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/abdul-rauf-raza-5900b8357" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="mailto:iabd360malik@gmail.com" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> Abdul Rauf Raza. All Rights Reserved.</p>
+                <p>Built with <i class="fas fa-heart"></i> using HTML, CSS & JavaScript</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==================== BACK TO TOP BUTTON ==================== -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
